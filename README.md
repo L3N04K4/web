@@ -45,4 +45,14 @@
 ### Form
 ![Form](img/form.png)
 
-`form.feedback-form>.feedback-form__column_one>input:text+input:email+input:tel^.feedback-form__column_two>textarea>img.feedback-form__icon^^button.button.feedback-form__button+a.feedback-form__text`
+`form.feedback-form>.feedback-form__content>.feedback-form__content_column1>input:text+input:email+input:tel^.feedback-form__content_column2>textarea>img.feedback-form__icon^^button.button.feedback-form__button+a.feedback-form__text`
+
+### Card
+![Card](img/card.png)
+
+`div.card>.card__info>h3.card__title+p.card__description+a.card__link^img.card__img`
+
+### Footer
+![Footer](img/footer.png)
+
+`header.header>.container>a.footer__logo^(nav.footer__nav_column$>ul.header__list>li.header__item*3)*3`
