@@ -40,7 +40,7 @@
 ### Header
 ![Header](img/header.png)
 
-`header.header>.container>a.header__logo^nav.header__nav>ul.header__list>li.header__item*5^a.header__aside`
+`header.header>.container>a.header__logo^nav.header__nav>ul.header__list>li.header__item*4^a.header__aside`
 
 ### Form
 ![Form](img/form.png)
