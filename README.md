@@ -22,15 +22,15 @@
 
 туловище
 туловище__грудь
-туловище__грудь_накаченная
+туловище__грудь_большая
 
 нога
 нога__палец
 нога__палец_большой
 
 нога
-нога__икра
-нога__игра_накаченная
+нога__колено
+нога__колено_больное
 
 нога
 нога__ступня
@@ -40,12 +40,12 @@
 ### Header
 ![Header](img/header.png)
 
-`header.header>.container>a.header__logo^nav.header__nav>ul.header__list>li.header__item*4^a.header__aside`
+`header.header>.container>a.header__logo^nav.header__nav>li.header__item*4^a.header__aside`
 
 ### Form
 ![Form](img/form.png)
 
-`form.feedback-form>.feedback-form__content>.feedback-form__content_column1>input:text+input:email+input:tel^.feedback-form__content_column2>textarea>img.feedback-form__icon^^button.button.feedback-form__button+a.feedback-form__text`
+`form.feedback-form>.feedback-form__content>.feedback-form__content_column>ladel>input:text^label>input:email^label>input:tel^.feedback-form__content_column>label>textarea.feedback-form__textarea^img.feedback-form__icon^^button.button.feedback-form__button+a.feedback-form__text`
 
 ### Card
 ![Card](img/card.png)
@@ -55,4 +55,4 @@
 ### Footer
 ![Footer](img/footer.png)
 
-`header.header>.container>a.footer__logo^(nav.footer__nav_column$>ul.header__list>li.header__item*3)*3`
+`footer.footer>.container>a.footer__logo^(nav.footer__nav_column>ul.header__list>li.header__item*3)*3`
